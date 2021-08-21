@@ -3,7 +3,7 @@ email: nishitlimbani130@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Portfolio and blog website of Nishit Patel.
   programmer and open source contributor.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://nis130.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 disqus: "blog-github-2"
 twitter_username: nishit130
