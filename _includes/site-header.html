@@ -1,0 +1,10 @@
+<header class="header">
+  <div class="container">
+    {% if site.logo %}{% include site-logo.html %}{% endif %}
+
+    {% include nav-header.html %}
+  </div>
+
+  {% if page.feature %}{% include site-feature.html %}{% endif %}
+
+</header>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-IN"><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en-IN" /><updated>2021-08-21T14:06:48+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Nishit Patel</title><subtitle>Portfolio webstie of Nishit Patel | Programmer | Open source contributor</subtitle><entry><title type="html">GSoC final submission</title><link href="http://localhost:4000/gsoc'21/2021/08/21/gsoc-final-submission.html" rel="alternate" type="text/html" title="GSoC final submission" /><published>2021-08-21T10:08:01+05:30</published><updated>2021-08-21T10:08:01+05:30</updated><id>http://localhost:4000/gsoc&apos;21/2021/08/21/gsoc-final-submission</id><content type="html" xml:base="http://localhost:4000/gsoc&apos;21/2021/08/21/gsoc-final-submission.html">&lt;p&gt;It has been a great journey working on the Tracker project. In the past 10 weeks, I got to learn a lot about the project and its architecture. This is the final submission of the project. For the weekly updates, check out my previous posts &lt;a href=&quot;https://www.nishitpatel.tech/categories#gsoc-21&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;proposed-project-goals&quot;&gt;Proposed project goals&lt;/h3&gt;
+
+&lt;p&gt;:heavy_check_mark: Add support of file-creation time in Tracker-miners.&lt;br /&gt;
+:heavy_check_mark: Add feature of search by file-creation time in Nautilus.&lt;br /&gt;
+:heavy_check_mark: Improve nautilus-search engine tests suite.&lt;/p&gt;
+
+&lt;h3 id=&quot;contributions&quot;&gt;Contributions&lt;/h3&gt;
+
+&lt;p&gt;Major contributions were done in &lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker-miners&quot;&gt;Tracker-miners&lt;/a&gt; and &lt;a href=&quot;https://gitlab.gnome.org/GNOME/nautilus&quot;&gt;Nautilus&lt;/a&gt; projects during the coding period.&lt;/p&gt;
+
+&lt;h4 id=&quot;add-support-of-file-creation-time-in-tracker-miners&quot;&gt;Add support of file-creation time in Tracker-miners&lt;/h4&gt;
+
+&lt;p&gt;This was the major primary goal of the project. After adding this feature, Tracker-miners now supports storing and querying file-creation time. While working on this feature, I also discovered and eventually fixed a double free bug in the indexer.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pull Requests&lt;/em&gt; 
+&lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker/-/merge_requests/440&quot;&gt;!440 (Merged)&lt;/a&gt;, 
+&lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker-miners/-/merge_requests/340&quot;&gt;!340 (Merged)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Issues&lt;/em&gt; 
+&lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker-miners/-/issues/158&quot;&gt;#158 (Closed)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;add-feature-of-search-by-file-creation-time-in-nautilus&quot;&gt;Add feature of search by file-creation time in Nautilus&lt;/h4&gt;
+
+&lt;p&gt;This feature depends on previous work done in Tracker-miners. After adding this feature, Nautilus now supports searching files by file-creation time.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pull Requests&lt;/em&gt; 
+&lt;a href=&quot;https://gitlab.gnome.org/GNOME/nautilus/-/merge_requests/693&quot;&gt;!693 (Open under review)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Issues&lt;/em&gt; 
+&lt;a href=&quot;https://gitlab.gnome.org/GNOME/nautilus/-/issues/1761&quot;&gt;#1761 (Open)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;improve-nautilus-search-engine-tests-suite&quot;&gt;Improve nautilus-search engine tests suite.&lt;/h4&gt;
+
+&lt;p&gt;Initially, there were only two proposed goals. After having chat with the mentors, we decided to extend the project by adding one more goal to improve the nautilus-search engine test suite. While writing tests I found a bug in the nautilus-tracker-search-engine due to improper date-time format. After fixing this bug, I added tests for searching files by modification and access time in all search engines.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pull Requests&lt;/em&gt; 
+&lt;a href=&quot;https://gitlab.gnome.org/GNOME/nautilus/-/merge_requests/697&quot;&gt;!697 (Merged)&lt;/a&gt;, 
+&lt;a href=&quot;https://gitlab.gnome.org/GNOME/nautilus/-/merge_requests/701&quot;&gt;!701 (Open under review)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Issues&lt;/em&gt; 
+&lt;a href=&quot;https://gitlab.gnome.org/GNOME/nautilus/-/issues/1933&quot;&gt;#1933 (Closed)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;other-miscellaneous-contributions&quot;&gt;Other miscellaneous contributions&lt;/h4&gt;
+
+&lt;p&gt;This work was done during the GSoC period but is not part of the project goals.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pull Requests&lt;/em&gt;
+&lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker/-/merge_requests/446&quot;&gt;!446 (Merged)&lt;/a&gt;, 
+&lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker-miners/-/merge_requests/336&quot;&gt;!336 (Merged)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Issues&lt;/em&gt; 
+&lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker/-/issues/317&quot;&gt;#317 (Closed)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;future-goals&quot;&gt;Future Goals&lt;/h4&gt;
+
+&lt;p&gt;Resolve any unresolved threads in the open Merge Requests. Write more tests for search by file creation time in Nautilus. Continue contributing to the projects.&lt;/p&gt;
+
+&lt;h4 id=&quot;closing-thoughts&quot;&gt;Closing thoughts&lt;/h4&gt;
+
+&lt;p&gt;It was an amazing experience working in GNOME Community. I would like to thank my mentors &lt;a href=&quot;https://gitlab.gnome.org/carlosg&quot;&gt;Carlos&lt;/a&gt; and &lt;a href=&quot;https://gitlab.gnome.org/sthursfield&quot;&gt;Sam&lt;/a&gt; for giving constructive suggestions and guiding me through the program, also thanks to &lt;a href=&quot;https://gitlab.gnome.org/antoniof&quot;&gt;António&lt;/a&gt; for quick code reviews. I enjoyed attending and giving a talk at &lt;a href=&quot;https://events.gnome.org/event/9/overview&quot;&gt;GUADEC conference&lt;/a&gt; and got to learn about different projects in the GNOME Circle. Looking forward to continue contributing to GNOME projects.&lt;/p&gt;
+
+&lt;h4 id=&quot;quick-links&quot;&gt;Quick links&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://gitlab.gnome.org/groups/GNOME/-/merge_requests?scope=all&amp;amp;state=all&amp;amp;author_username=nis130&quot;&gt;All Merge Requests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gitlab.gnome.org/groups/GNOME/-/issues?scope=all&amp;amp;state=all&amp;amp;author_username=nis130&quot;&gt;All Issues&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.nishitpatel.tech/categories#gsoc-21&quot;&gt;Weekly update&apos;s&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gitlab.gnome.org/nis130&quot;&gt;My Gitlab Account&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtu.be/DjmL5YbcPEQ?t=6701&quot;&gt;GUADEC Talk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DjmL5YbcPEQ?start=6701&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><category term="GSoC&apos;21" /><summary type="html">It has been a great journey working on the Tracker project. In the past 10 weeks I got to learn a lot about the project and its architecture.</summary></entry><entry><title type="html">GSoC Project update part II</title><link href="http://localhost:4000/gsoc'21/2021/08/02/gsoc-project-update-part-ii.html" rel="alternate" type="text/html" title="GSoC Project update part II" /><published>2021-08-02T10:08:01+05:30</published><updated>2021-08-02T10:08:01+05:30</updated><id>http://localhost:4000/gsoc&apos;21/2021/08/02/gsoc-project-update-part-ii</id><content type="html" xml:base="http://localhost:4000/gsoc&apos;21/2021/08/02/gsoc-project-update-part-ii.html">&lt;p&gt;For the previous week’s update check out my last post.&lt;/p&gt;
+
+&lt;h3 id=&quot;week-4&quot;&gt;Week 4&lt;/h3&gt;
+
+&lt;p&gt;While reading the documentation, I came across a bug that was leading to broken links. After some debugging and testing, I was able to fix the bug. It was due to a missing configuration in the documentation engine.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Issues&lt;/em&gt;: &lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker/-/issues/317&quot;&gt;#317&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Merge Requests&lt;/em&gt;: &lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker/-/merge_requests/446&quot;&gt;!446&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;week-5&quot;&gt;Week 5&lt;/h3&gt;
+
+&lt;p&gt;Resolved all the threads, and marked the MR ready for merge. After few more changes MR was merged, and with this one out of two project goal was achieved.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Issue&lt;/em&gt;: &lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker-miners/-/issues/158&quot;&gt;#158&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Merge Requests&lt;/em&gt;: &lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker-miners/-/merge_requests/340&quot;&gt;!340&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;week-6&quot;&gt;Week 6&lt;/h3&gt;
+
+&lt;p&gt;I began working towards my second milestone. Cloned the nautilus repository and spent few days understanding the codebase.  I was also working on my GUADEC presentation (hopefully will write a separate blog for it :-).&lt;/p&gt;
+
+&lt;h3 id=&quot;week-7&quot;&gt;Week 7&lt;/h3&gt;
+
+&lt;p&gt;Opened MR for search by creation time in nautilus, and while writing tests for nautilus discovered a bug and fixed it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Issues&lt;/em&gt;: &lt;a href=&quot;https://gitlab.gnome.org/GNOME/nautilus/-/issues/1933&quot;&gt;#1933&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Merge Requests&lt;/em&gt;: &lt;a href=&quot;https://gitlab.gnome.org/GNOME/nautilus/-/merge_requests/693&quot;&gt;!693&lt;/a&gt;, &lt;a href=&quot;https://gitlab.gnome.org/GNOME/nautilus/-/merge_requests/697&quot;&gt;!697&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="GSoC&apos;21" /><summary type="html">Weekly update of GSoC&apos;21 project. Include&apos;s work done on week 4, 5, 6 and 7.</summary></entry><entry><title type="html">GSoC Project update part I</title><link href="http://localhost:4000/gsoc'21/2021/06/29/gsoc-project-update.html" rel="alternate" type="text/html" title="GSoC Project update part I" /><published>2021-06-29T10:08:01+05:30</published><updated>2021-06-29T10:08:01+05:30</updated><id>http://localhost:4000/gsoc&apos;21/2021/06/29/gsoc-project-update</id><content type="html" xml:base="http://localhost:4000/gsoc&apos;21/2021/06/29/gsoc-project-update.html">&lt;p&gt;This is a weekly update of my GSoC project.&lt;/p&gt;
+
+&lt;h3 id=&quot;week-1&quot;&gt;Week 1&lt;/h3&gt;
+
+&lt;p&gt;Following the proposed schedule, I began working on the first milestone, i.e Adding support for creation time in tracker-miners. While building the tracker-miner I discovered crashes in the indexer. After taking some help from mentors and debugging,
+It was found that a double-free bug in the indexer was causing the crash. As the piece of code was unused, it went unnoticed.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Merge Requests&lt;/em&gt;: &lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker/-/merge_requests/440&quot;&gt;!440&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;week-2&quot;&gt;Week 2&lt;/h3&gt;
+
+&lt;p&gt;During 2nd week, Most of the time was spent writing code. I was also working on resolving threads in the merge requests which were opened before GSoC.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Merge Requests&lt;/em&gt;: &lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker-miners/-/merge_requests/327&quot;&gt;!327&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;week-3&quot;&gt;Week 3&lt;/h3&gt;
+
+&lt;p&gt;Opend Draft MR for the first milestone, and fixed some of the coverity warnings which were introduced after merging &lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker-miners/-/merge_requests/327&quot;&gt;!327&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Merge Requests&lt;/em&gt;:
+&lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker-miners/-/merge_requests/336&quot;&gt;!336&lt;/a&gt;,
+ &lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker-miners/-/merge_requests/340&quot;&gt;!340&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="GSoC&apos;21" /><summary type="html">Weekly update of GSoC&apos;21 project. Include&apos;s work done on week 1, 2 and 3.</summary></entry><entry><title type="html">Beginning my GSoC Journey</title><link href="http://localhost:4000/gsoc'21/2021/05/31/start-of-gsoc-jouney.html" rel="alternate" type="text/html" title="Beginning my GSoC Journey" /><published>2021-05-31T10:08:01+05:30</published><updated>2021-05-31T10:08:01+05:30</updated><id>http://localhost:4000/gsoc&apos;21/2021/05/31/start-of-gsoc-jouney</id><content type="html" xml:base="http://localhost:4000/gsoc&apos;21/2021/05/31/start-of-gsoc-jouney.html">&lt;p&gt;&lt;em&gt;This was my reaction after finding out that I was selected for GSoC :)&lt;/em&gt;&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center&quot;&gt;
+&lt;img src=&quot;https://media.giphy.com/media/b5LTssxCLpvVe/giphy.gif&quot; /&gt;
+&lt;p style=&quot;font-size: 15px;text-align:center&quot;&gt;source: Giphy&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I am starting a new blog series, for covering my GSoC’21 journey with &lt;a href=&quot;https://www.gnome.org/&quot; target=&quot;_blank&quot;&gt;GNOME Foundation&lt;/a&gt;. This is going to be an introductory blog where I will talk about the project on which I’ll be working this summer. Before we get started let me introduce myself to the folks reading from the GNOME planet. I am Nishit Patel, an undergraduate Computer Engineering student from India.&lt;/p&gt;
+
+&lt;p&gt;I began my pre GSoC journey back in November 2020 when I opened my first &lt;a href=&quot;https://gitlab.gnome.org/GNOME/tracker/-/merge_requests/346&quot;&gt;MR&lt;/a&gt; in tracker project. It was a small bug fix in the README.md file which I came across while setting up my local environment. Later, I began keeping a watch on the #tracker IRC and used to ask maintainers for help whenever I was stuck at something. Maintainers were very helpful and polite with their prompt replies even if I was asking some stupid question that was already addressed somewhere in the documentation. One thing that I noticed is it is better to first google, and check the docs before asking the question as it saves the maintainers precious time, and you also get to learn something new in the process.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-details&quot;&gt;Project details&lt;/h2&gt;
+
+&lt;p&gt;I will be working on the &lt;a href=&quot;https://wiki.gnome.org/Projects/Tracker/WhatIsTracker&quot;&gt;Tracker-miner&lt;/a&gt; project which is an indexer, and also used for extracting the metadata from different file formats. Tracker currently doesn’t store the creation time in the database as it was historically not tracked on UNIX file systems, and it’s not part of &lt;a href=&quot;https://www.gnu.org/software/coreutils/manual/html_node/File-timestamps.html#:~:text=28%20File%20timestamps,to%20the%20file&apos;s%20meta%2Dinformation.&quot;&gt;POSIX specification&lt;/a&gt;. However, Since &lt;a href=&quot;https://kernelnewbies.org/Linux_4.11&quot;&gt;kernel version 4.11&lt;/a&gt; the new &lt;a href=&quot;https://github.com/torvalds/linux/commit/a528d35&quot;&gt;statx&lt;/a&gt; system call provides the file creation timestamp. Based on this, the project aims to provide the support of storing file creation time in the tracker database and later, provide the &lt;a href=&quot;https://gitlab.gnome.org/GNOME/nautilus/-/issues/1761&quot;&gt;feature&lt;/a&gt; of searching by creation time in Nautilus.&lt;/p&gt;
+
+&lt;p&gt;I will be writing short posts as and when I get time in between so&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center&quot;&gt;
+&lt;img src=&quot;https://media.giphy.com/media/kyLptBNdyMHftuqoNy/giphy.gif&quot; /&gt;
+&lt;p style=&quot;font-size: 15px;text-align:center&quot;&gt;source: Giphy&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="GSoC&apos;21" /><summary type="html">This is going to be an introductory blog where I will talk about the project on which I’ll be working this summer in GNOME Foundation.</summary></entry><entry><title type="html">Experience at KJSCE Hack 4.O</title><link href="http://localhost:4000/kjsce-hack/2019/10/08/experience-at-kjsce-hack.html" rel="alternate" type="text/html" title="Experience at KJSCE Hack 4.O" /><published>2019-10-08T17:46:01+05:30</published><updated>2019-10-08T17:46:01+05:30</updated><id>http://localhost:4000/kjsce-hack/2019/10/08/experience-at-kjsce-hack</id><content type="html" xml:base="http://localhost:4000/kjsce-hack/2019/10/08/experience-at-kjsce-hack.html">&lt;p&gt;In this blog, I will share my experience at &lt;strong&gt;KJSCE Hackathon 2019&lt;/strong&gt;. first, let me explain what is a hackathon and if you already know than skip the next 5-6 lines.&lt;/p&gt;
+
+&lt;p&gt;Hackathon’s are of a various type depending on time for example 12hr, 24hr, 48hr or they can be different by themes like hardware and software hackathons. They are generally development based event where you have to create a working product which aim’s to solve our day to day problem. Also it should be created within a time-bound given to you. It is a team-based event, generally a team of four. This much intro is enough for you to understand what is a hackathon, so lets start with my experience.&lt;/p&gt;
+
+&lt;p&gt;It was a 24hr Hackathon organized by &lt;a href=&quot;http://www.kjscecodecell.com&quot;&gt;KJSCE Codecell&lt;/a&gt;. My team name for the Hackathon was &lt;strong&gt;EUREKA&lt;/strong&gt;, and the members were &lt;em&gt;&lt;a href=&quot;https://www.linkedin.com/in/nishit-patel-45a8b0136/&quot;&gt;Nishit&lt;/a&gt; (myself) , &lt;a href=&quot;https://www.linkedin.com/in/manan-pandya-435215192/&quot;&gt;Manan&lt;/a&gt; , &lt;a href=&quot;https://www.linkedin.com/in/ali-solanki-2a1227192/&quot;&gt;Ali&lt;/a&gt; and &lt;a href=&quot;https://www.linkedin.com/in/pathik-ghugare-4b7b60191/&quot;&gt;Pathik&lt;/a&gt;&lt;/em&gt;. We were the only team from first year. As it was the first time we were participating in such event, so our goal was simple, we wanted to learn and connect with the people instead of racing for win.&lt;/p&gt;
+
+&lt;p&gt;The Coding Period began on 5th Oct at noon and our idea was to make a Hospital Management System website which was named as Hospipro. Then next task was to select a good tech stack to create Hospipro. We all agreed upon to use Django framework as our main tech stack. I was working on the Backend Development for the Website, it includes tasks like creating a login page for the doctor, patient list view, updates patient profile and creating different database models. Manan was working on the Frontend his task includes of web-design. Ali was developing the android version of our website using Kotlin language. Pathik Was given the task of creating a logo’s, ppt’s etc required for final judging round.&lt;/p&gt;
+
+&lt;p&gt;24hr seems to be lot of time but when we began with our work only then we realized its definelty not lot of time. Myself and my teammates were continuously coding for 24hrs straight day and night with just a nap of 2hrs. I enjoyed the mix of friendly as well as competetive enviroment of hackathon, and plan to participate in more such hackathons.&lt;/p&gt;
+
+&lt;p&gt;Our product Hospipro included features like:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Secure Login Portal&lt;/li&gt;
+  &lt;li&gt;Even when patients are unconscious we can scan the generated QR code from their IDs&lt;/li&gt;
+  &lt;li&gt;The ability for doctors to update patients profile with their profile picture&lt;/li&gt;
+  &lt;li&gt;The doctor can easily handle information of their patients in just one click&lt;/li&gt;
+  &lt;li&gt;Patients can also have access to their medical history&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Screenshots&lt;/em&gt;&lt;/strong&gt;
+&lt;img src=&quot;../../../../assets/img/home.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../../../../assets/img/login.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I noticed that most of the teams were using new and easy to build tech stack like Flask, nodejs etc for the backend, and during the judging round. I would like to suggest that, if you are planning to participate in your first hackathon then do make some pre-preparation regarding the idea and how you are going to implement it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;button&quot; href=&quot;https://github.com/nis130&quot; style=&quot;background: #0366d6&quot;&gt;Source Code of Hospipro  &lt;svg width=&quot;16&quot; height=&quot;16&quot; class=&quot;icon  icon--github&quot; role=&quot;img&quot; alt=&quot;github&quot;&gt;&lt;title&gt;github&lt;/title&gt;&lt;use xlink:href=&quot;#github&quot; fill=&quot;CurrentColor&quot;&gt;&lt;/use&gt;&lt;/svg&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Images taken during Hackathon&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/img/feature.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;../../../../assets/img/image2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="KJSCE-Hack" /><summary type="html">In this blog, I will share my experience at KJSCE Hackathon 2019. first, let me explain what is a hackathon and if you already know than skip the next 5-6 lines.</summary></entry></feed>

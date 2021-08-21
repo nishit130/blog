@@ -1,0 +1,116 @@
+title: Nishit Patel
+email: nishitlimbani130@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Portfolio and blog website of Nishit Patel.
+  programmer and open source contributor.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://nis130.github.io/blog/" # the base hostname & protocol for your site, e.g. http://example.com
+disqus: "blog-github-2"
+twitter_username: nishit130
+github_username:  nis130
+
+google_analytics: "UA-150355837-2"
+
+# Build settings
+# theme: alembic-jekyll-theme
+# remote_theme: daviddarnes/alembic
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jemoji
+  # - jekyll-remote-theme
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+
+encoding: utf-8 # Make sure the encoding is right
+lang: en-IN # Set the site language
+title: "Nishit Patel" # Site name or title, also used in jekyll-seo-tag
+description: "Portfolio webstie of Nishit Patel | Programmer | Open source contributor" # Site description and default description, also used in jekyll-seo-tag
+twitter_url: "https://twitter.com/nishit130"
+linkedin_url: "https://www.linkedin.com/in/nishit130/"
+
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  Twitter: https://twitter.com/nishit130
+  LinkedIn: https://www.linkedin.com/in/nishit130/
+  GitHub: https://github.com/nis130
+  Gitlab: https://gitlab.gnome.org/nis130
+  RSS: /feed.xml
+
+navigation_header:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog
+  - title: Categories
+    url: /categories
+
+collections:
+  posts:
+    title: Blog # Needed for Siteleaf
+    output: true
+    description: "Bloging page | Nishit patel blogs | programming blogs" # The post list page content
+    feature_text: Blog Post's
+    feature_image: "https://i.pinimg.com/originals/bf/34/a8/bf34a82720a4599d341a4f10f8b50039.jpg"
+  kjsce-hack:
+    title: KJSCE Hack Experience
+    output: true
+    description: "Written by Nishit Patel, KJSCE HACK 5.0 Experience, First hackathon blog"
+    feature_image: "../../../../assets/img/eureka3.jpg"
+  gsoc-1:
+    title:  "Beginning my GSoC Journey"
+    output: true
+    description: "Written by Nishit Patel,Beginning GSoC journey, google summer of code experience, gsoc at GNOME organization, gnome foundation, mygsoc, My GSoC"
+    feature_image: "/assets/img/gsoc_gnome.png"
+  gsoc-2:
+    title:  "GSoC project update part I"
+    output: true
+    description: "Written by Nishit Patel,Weekly GSoC journey, google summer of code, gsoc at GNOME organization, gnome foundation, Week wise documentation of GSoC journey"
+    feature_image: "/assets/img/gsoc_gnome.png"
+  gsoc-3:
+    title:  "GSoC project update part II"
+    output: true
+    description: "Written by Nishit Patel,Weekly GSoC journey, google summer of code, gsoc at GNOME organization, gnome foundation, Experience at GUADEC"
+    feature_image: "/assets/img/gsoc_gnome.png"
+  gsoc-4:
+    title:  "GSoC final submission"
+    output: true
+    description: "Written by Nishit Patel,Weekly GSoC journey, google summer of code, gsoc at GNOME organization, gnome foundation, Experience at GUADEC"
+    feature_image: "/assets/img/gsoc_gnome.png"
+  
+
+navigation_footer:
+  - title: Blog
+    url: /blog
+
+sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
+  Twitter: "#0d94e7"
+  facebook: "#3B5998"
+  Email: true
+
+# Site Icons
+favicons:
+  36: '/assets/logos/android-icon-36x36.png'
+  48: '/assets/logos/android-icon-48x48.png'
+  72: '/assets/logos/android-icon-72x72.png'
+  96: '/assets/logos/android-icon-96x96.png'
+  144: '/assets/logos/android-icon-144x144.png'
+  192: '/assets/logos/android-icon-192x192.png'

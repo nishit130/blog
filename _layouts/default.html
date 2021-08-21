@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  <head>
+    <!-- General meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% if page.indexing == false %}
+      <meta name="robots" content="noindex">
+    {% endif %}
+
+    {% if page.collectionpage == "posts" %}
+
+      {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+      <title>{{ collectiondata.title }} - {{ site.title }}</title>
+      <meta property="og:title" content="{{ collectiondata.title }}">
+      <meta name="description" content="{{ collectiondata.description }}">
+      <meta property="og:description" content="{{ collectiondata.description }}">
+
+
+    {% elsif page.collectionpage == "home" %}
+      
+      <title>{{ site.title }} - Home</title>
+      <meta property="og:title" content="{{ site.title }}">
+      <meta name="description" content="{{ site.description }}">
+      <meta property="og:description" content="{{ collectiondata.description }}">
+
+
+    {% elsif page.collectionpage == "categories" %}
+    
+    <title>Categories</title>
+    <meta property="og:title" content="{{ site.title }} - Categories">
+    <meta name="description" content="Categories page, Indexing page for the blogs">
+    <meta property="og:description" content="Categories page, Indexing page for the blogs">
+
+
+   
+    {% else %}
+      {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+      <title>{{ collectiondata.title }} - {{ site.title }}</title>
+      <meta property="og:title" content="{{ collectiondata.title }}">
+      <meta name="description" content="{{ collectiondata.description }}">
+      <meta property="og:description" content="{{ collectiondata.description }}">
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{collectiondata.title}}",
+        "image": [
+          "https://www.nishitpatel.tech/assets/img/feature.jpg"
+        ],
+        "datePublished": "{{page.date}}",
+        "dateModified": "{{page.date}}"
+      }
+      </script>
+    {% endif %}
+
+    <script src="https://kit.fontawesome.com/daf0283f09.js" crossorigin="anonymous"></script>
+    <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
+    <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#242e2b' }}"/>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+
+    {% if site.css_inline == true %}
+      {% include site-styles.html %}
+    {% else %}
+      <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+    {% endif %}
+
+    {% if site.favicons or site.avatarurl %}{% include site-favicons.html %}{% endif %}
+
+    {% if site.google_analytics %}{% include site-analytics.html %}{% endif %}
+
+    {% include site-before-start.html %}
+  </head>
+
+  <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
+    {% include site-icons.svg %}
+
+    {{ content }}
+
+    {% if site.service_worker != false %}{% include site-sw.html %}{% endif %}
+
+    {% include toggle-theme-js.html %}
+    {% include site-before-end.html %}
+  </body>
+
+</html>

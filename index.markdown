@@ -1,0 +1,4 @@
+---
+collectionpage: home
+layout: index
+---

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/kjsce-hack/2019/10/08/experience-at-kjsce-hack.html</loc>
+<lastmod>2019-10-08T17:46:01+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/gsoc'21/2021/05/31/start-of-gsoc-jouney.html</loc>
+<lastmod>2021-05-31T10:08:01+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/gsoc'21/2021/06/29/gsoc-project-update.html</loc>
+<lastmod>2021-06-29T10:08:01+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/gsoc'21/2021/08/02/gsoc-project-update-part-ii.html</loc>
+<lastmod>2021-08-02T10:08:01+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/gsoc'21/2021/08/21/gsoc-final-submission.html</loc>
+<lastmod>2021-08-21T10:08:01+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/404.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+</urlset>
